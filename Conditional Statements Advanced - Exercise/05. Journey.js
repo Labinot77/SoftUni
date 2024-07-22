@@ -29,7 +29,7 @@ function Journey(params) {
 
   let vacationType = Destinations[destination][Season].type;
   let spentAmount = Destinations[destination][Season].rate * Budget;
-
+  
   console.log(`Somewhere in ${destination}`);
   console.log(`${vacationType} - ${spentAmount.toFixed(2)}`);
 
