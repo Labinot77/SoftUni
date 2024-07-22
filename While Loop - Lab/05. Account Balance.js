@@ -4,16 +4,15 @@ function accountBalance(params) {
   
   while (i < params.length) {
     let transaction = params[i];
+    let amount = Number(transaction);
     
     if (transaction === "NoMoreMoney") {
       break;
     }
     
-    let amount = Number(transaction);
-
     if (amount < 0) {
       console.log("Invalid operation!")
-      break
+      break;
     }
 
     console.log(`Increase: ${amount.toFixed(2)}`);

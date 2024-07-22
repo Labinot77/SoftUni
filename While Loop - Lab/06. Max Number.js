@@ -4,12 +4,13 @@ function maxNumber(params) {
 
   while (i < params.length) {
     let input = params[i];
+    let number = Number(input);
 
     if (input === "Stop") {
       break;
     }
 
-    let number = Number(input);
+
     if (number > highestNumber) {
       highestNumber = number;
     }

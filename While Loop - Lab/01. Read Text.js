@@ -1,5 +1,6 @@
 function WordReading(params) {
   let i = 0;
+  
   while (i < params.length && params[i] !== "Stop") {
     console.log(params[i]);
     i++;
