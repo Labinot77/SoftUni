@@ -22,7 +22,7 @@ function moving(params) {
       return;
     }
 
-    index++
+    index++;
   }
 
   console.log(`${totalSpace - sum} Cubic meters left.`);
