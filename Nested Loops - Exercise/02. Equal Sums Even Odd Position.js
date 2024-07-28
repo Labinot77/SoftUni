@@ -18,7 +18,7 @@ function equalSumsEvenOddPosition(params) {
         }
 
         if (even === odd) {
-            // result.push(number) // When using push it creates an ARRAY where each number is an individual element.
+            // result.push(number) // When using push it creates an ARRAY where each number is an individual element. Pushed can only be used for ARRAY
             result += `${number} ` // This just creates a string of numbers.
         }
     }
