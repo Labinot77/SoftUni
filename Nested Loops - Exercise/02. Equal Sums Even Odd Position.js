@@ -1,0 +1,3 @@
+function equalSumsEvenOddPosition(params) {
+    
+}
