@@ -11,7 +11,7 @@ function numberPyramid(params) {
                 isBigger = true;
                 break;
             }
-            printCurrentLine += current + " ";
+            printCurrentLine += `${current} `;
             current++
         }
 

@@ -5,7 +5,7 @@ function building(params) {
     
     for (floor = floors; floor > 0; floor--) { // * Use the floor-- to filter them from highest to losest.
         let result = ""
-        for (room = 0; room < roomsPerFloor ;room++) {
+        for (room = 0; room <= roomsPerFloor ;room++) {
             if (floor === floors) {
                 result += `L${floor}${room} `; // ! For the final floor where the appartments are large
             } else if (floor % 2 === 0) {
@@ -19,4 +19,4 @@ function building(params) {
     }
 }
 
-building(["6", "4"])
+building(["61", "4"])
