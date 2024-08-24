@@ -56,3 +56,8 @@ Substitute([7, 8, 8, 5]);
 // thrive -- процъфтявам
 // sollitude - уединение
 // settle - настанявам
+// stagnant -- в застой.
+// acquaintance -- запознат.
+// tangible -- материален
+// conundrum -- загатка
+// interpret -- тълкувам  

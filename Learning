@@ -1,0 +1,7 @@
+Liquid is a template language for Shopify. It's used for building themes and customizing the apparancec of the a Shopify store. 
+Syntax: 
+1.Objects: {{ product.titles }},
+2.Tags (which are used for logic, like loops, conditionals, ): {% if products.avaible %}, {% for product in collection.products %},
+We end all of these with the {% endif %}, {% endfor %},
+
+There are two types of API's: storefront and admin.
