@@ -1,14 +1,14 @@
 function sumOfTwoNumbers(params) {
-    const start = Number(params[0]);
-    const end = Number(params[1]);
+    const start = Math.min(Number(params[0]), Number(params[1]));
+    const end = Math.max(Number(params[0]), Number(params[1]));
     const result = Number(params[2]);
-
     let combinationCount = 0;
     let found = false;
-
+    
+    
     for (x = start; x <= end; x++) {
+        combinationCount++
         for (y = start; y <= end; y++) {
-            combinationCount++
             if (x + y === result) {
                 console.log(`Combination N:${combinationCount} (${x} + ${y} = ${result})`);
                 found = true;
@@ -25,4 +25,4 @@ function sumOfTwoNumbers(params) {
     }
 }
 
-sumOfTwoNumbers(["88", "888", "2000"]);
+sumOfTwoNumbers(["5621", "321", "2000"]);

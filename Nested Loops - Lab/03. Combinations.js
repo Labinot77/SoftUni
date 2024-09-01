@@ -14,3 +14,5 @@ function combination(params) {
   
     console.log(validCombinationsCount);
 }
+
+combination([20])
