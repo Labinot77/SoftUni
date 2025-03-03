@@ -17,3 +17,6 @@ function SumSeconds(params) {
 }
 
 SumSeconds(["35", "45", "44"])
+
+
+// Testing
